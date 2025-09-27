@@ -1,0 +1,2 @@
+[27-Sep-2025 15:37:27 UTC] Register.php accessed with method: POST
+[27-Sep-2025 15:37:27 UTC] Received raw data: {"fullName":"Aaron","email":"aey@example.com","username":"aey123","password":"Aa123456"}
