@@ -401,7 +401,15 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/CCE_Intrams.jpg');
     background-size: cover;
     background-position: center;
-    animation: fadeIn 1s ease-out;
+}
+
+.auth-box h2 {
+    font-family: 'Sprintura', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #e9cb44;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .auth-box {
@@ -439,6 +447,7 @@ body {
 .form-group {
     margin-bottom: 1.5rem;
     animation: fadeIn 0.6s ease-out;
+    font-family: 'Roboto', sans-serif;
 }
 
 .form-group label {
@@ -446,6 +455,7 @@ body {
     margin-bottom: 0.5rem;
     font-weight: 500;
     transition: color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
 }
 
 .form-group input {
@@ -455,6 +465,7 @@ body {
     border-radius: 5px;
     font-size: 1rem;
     transition: all 0.3s ease;
+    font-family: 'Roboto', sans-serif;
 }
 
 .form-group input:focus {
@@ -470,10 +481,14 @@ body {
     color: #333;
     border: none;
     border-radius: 5px;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.1rem;
+    font-weight: 700;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Orbitron', sans-serif;
+    box-shadow: 0 4px 15px rgba(233, 203, 68, 0.3);
     position: relative;
     overflow: hidden;
 }
@@ -485,22 +500,22 @@ body {
     left: 50%;
     width: 0;
     height: 0;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.3);
     border-radius: 50%;
-    transition: width 0.3s, height 0.3s, top 0.3s, left 0.3s;
+    transition: width 0.4s ease-out, height 0.4s ease-out, top 0.4s ease-out, left 0.4s ease-out;
 }
 
 .auth-button:hover::before {
-    width: 300px;
-    height: 300px;
-    top: -50px;
-    left: -50px;
+    width: 400px;
+    height: 400px;
+    top: -100px;
+    left: -100px;
 }
 
 .auth-button:hover {
-    background-color: #d4b73d;
+    background-color: #ffd700;
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 20px rgba(233, 203, 68, 0.4);
 }
 
 .auth-redirect {
